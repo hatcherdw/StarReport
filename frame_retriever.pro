@@ -62,7 +62,7 @@ SPAWN, 'ls -1 | wc -l', dir_num_files ;;number of files currently in ascii files
 
 jump: ;;jump here if overwrite_check is equal to 0
 ;;CD over to the spectra directory to copy over ascii files                                                 
-CD, root_direc+sub_direc
+CD, sub_direc
 FOR i=0, N_ELEMENTS(available_frames)-1 DO BEGIN
    SPAWN, '\cp *' + available_frames[i] + '* ' + file_loc
 ENDFOR

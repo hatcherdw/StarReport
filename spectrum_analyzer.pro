@@ -43,7 +43,7 @@ IF spec_plot_alone THEN BEGIN
 ENDIF
 
 ;; get a path to the file location so it can be in a seperate directory 
-spec_file = FILEPATH('*'+temp_file+'*', ROOT_DIR=root_direc, SUBDIR=sub_direc)
+spec_file = FILEPATH('*'+temp_file+'*', ROOT_DIR=sub_direc)
 
 
 

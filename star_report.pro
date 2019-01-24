@@ -14,11 +14,12 @@
 ;;======================================================================;;
 
 
-PRO star_report,star_list
+PRO star_report,star_list, DIR=specDir
 COMMON abort_block, no_exp_frames, no_hdhr_num, no_match_frames, user_entry
 COMMON spec_block, cc_waves, center, EW, ew_error, flag, flux, fwhm, ha_waves, mask_flux, peak_flux, peak_num, peak_wave, peak1_flux, peak1_wave, peak2_flux, peak2_wave, shell_para, snr, snr_error, symmetry, vr_ratio, wave
 COMMON star_block, analysis_logs, root_direc, available_dates, available_frames, analysis_dates, analysis_frames, mult_stars, star_dec, star_hd, star_hr, star_proper_name, star_name, star_ra,  star_vmag, start_time, sub_direc, targets_dir_name, trend, ver_num
 
+ON_ERROR, 3
 
 ;;======================= VERSION NUMBER =======================;;
                           ver_num = '1.0'
@@ -45,8 +46,11 @@ IF mult_stars THEN star_name = star_list
 
 SPAWN, 'pwd', root_direc
 root_direc = root_direc+'/' ;;working directory
-sub_direc = 'Spectra' ;;directory the spectra files are stored in 
-
+IF KEYWORD_SET(specDir) THEN BEGIN
+    sub_direc = specDir 
+ENDIF ELSE BEGIN
+    sub_direc = "Spectra"
+ENDELSE
 
 ;; switch for using the shifted spectra from halpha_centralizer.pro
 ;; or cross_correlator.pro *** MUST BE DIFFERENT or both are ignored ***  

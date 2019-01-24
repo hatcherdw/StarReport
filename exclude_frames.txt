@@ -1,0 +1,69 @@
+% List of frames for mult. targets that are to be excluded from analysis
+%
+%Frame      Star       NOTES
+%----   --------   -------->
+41568     HD3360   Halpha saturated
+19048     HD4180   Halpha saturated
+22702     HD4180   Halpha saturated
+22780     HD4180   Halpha saturated
+29009     HD4180   Halpha saturated
+16259     HD5394   Halpha saturated
+19049     HD5394   Halpha saturated
+22704     HD5394   Halpha saturated
+24845     HD5394   Halpha saturated
+22709    HD10516   Halpha saturated
+22710    HD10516   Halpha saturated (blue)
+41595    HD11415   Halpha saturated
+22715    HD19243   Halpha saturated
+22719    HD22192   cosmic ray too close to Halpha
+33426    HD22192   Halpha close to saturation
+36719    HD22192   Sky not completely dark at start of night
+40161    HD22192   Cosmic rays
+22721    HD23302   Halpha saturated (blue)
+22792    HD23302   Halpha saturated (blue)
+22727    HD23850   Halpha saturated (blue)
+22732    HD24534   Halpha saturated
+22800    HD24760   Halpha saturated
+22799    HD24760   Halpha saturated
+33492    HD24760   Halpha saturated
+19434    HD25940   Halpha saturated
+22804    HD25940   Halpha saturated
+22805    HD25940   Halpha saturated
+17375    HD32343   Very weak exposure
+22815    HD32630   Halpha saturated
+26093    HD32630   Halpha saturated
+33442    HD32991   Halpha saturated
+41525    HD32991   Halpha saturated
+22734    HD37202   Halpha saturated
+41542    HD50138   Halpha saturated
+41543    HD50138   Halpha saturated
+33454    HD56139   Halpha saturated
+24787   HD109387   Halpha saturated
+24792   HD138749   Halpha saturated (red)
+16450   HD143275   Halpha saturated
+16912   HD143275   Halpha saturated
+20004   HD143275   Halpha saturated
+18538   HD148184   Halpha saturated
+20006   HD148184   Halpha saturated
+24769   HD148184   Halpha saturated
+32138   HD164353   Halpha saturated (blue)
+16460   HD193237   Halpha saturated
+17072   HD193237   Halpha saturated
+21118   HD193237   Halpha saturated
+24816   HD193237   Halpha saturated
+26049   HD193237   Halpha saturated
+37516   HD193237   Halpha saturated
+37517   HD193237   Halpha saturated
+16934   HD202904   Halpha saturated
+22768   HD202904   Halpha saturated
+22769   HD202904   Halpha saturated
+26053   HD202904   Halpha saturated
+30706   HD203374   Halpha saturated
+30713   HD203467   Halpha saturated
+19412   HD208816   Halpha saturated
+22774   HD208816   Halpha saturated
+22776   HD208816   Halpha saturated
+28967   HD208816   Halpha saturated
+30674   HD208816   Halpha saturated
+41479   HD217891   Halpha saturated
+41480   HD217891   Halpha saturated

@@ -675,7 +675,8 @@ IF ~ISA(star_list) THEN BEGIN
    
 
    ;;************************************ ADD TEXT TO THE WINDOW ****************************************;; 
-   
+  
+ 
    XYOUTS, 0.03, 0.004, 'Ver. '+ver_num+', '+systime(0), CHARSIZE=1.3, CHARTHICK=1.7, /NORMAL
    XYOUTS, 0.50, 0.97, star_proper_name, ALIGNMENT=0.5, CHARSIZE=3, CHARTHICK=1.8, /NORMAL
    XYOUTS, 0.18, 0.97, star_name+'  (V='+star_vmag+')', ALIGNMENT=0.5, CHARSIZE=2, CHARTHICK=1.8, /NORMAL
@@ -987,6 +988,7 @@ ENDIF
 
 
 ;;************************************ ADD TEXT TO THE WINDOW ****************************************;;
+XYOUTS, 0.03, 0.99, sub_direc, CHARSIZE=0.65, /NORMAL
 
 XYOUTS, 0.03, 0.004, 'Ver. '+ver_num+', ' + systime(0), CHARSIZE=0.65, /NORMAL
 XYOUTS, 0.50, 0.97, star_proper_name, ALIGNMENT=0.5, CHARSIZE=1.8, CHARTHICK=1.8, /NORMAL
